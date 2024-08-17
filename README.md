@@ -1,4 +1,4 @@
-# Conway's Game of Life - Go Server
+# Conway's Game of Life - Go Server and HTMX Front-end
 
 ## Overview
 
