@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conway's Game of Life</title>
+    <script src="https://unpkg.com/htmx.org@1.8.0"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            width: 15px;
+            height: 15px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conway's Game of Life</h1>
+    
+    
+    <!-- Area where the board will be displayed -->
+    <div id="board">
+        <!-- Board content will be loaded here -->
+    </div>
+    
+    <!-- Optionally, add a timer to automatically update the board periodically -->
+    <script>
+        setInterval(function() {
+            htmx.ajax('GET', '/dynamic', {target: '#board', swap: 'innerHTML'});
+        }, 150); // Update every second
+    </script>
+</body>
+</html>
