@@ -21,8 +21,8 @@ This project implements Conway's Game of Life in Go, using a web server to serve
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/yourusername/game-of-life.git
-    cd game-of-life
+    https://github.com/johnnnathan/CGoL.git
+    cd CGoL
     ```
 
 2. **Build and Run**
@@ -30,8 +30,8 @@ This project implements Conway's Game of Life in Go, using a web server to serve
     Build and run the Go server:
 
     ```bash
-    go build -o game-of-life
-    ./game-of-life
+    go build -o CGoL
+    ./CGoL
     ```
 
 3. **Access the Game**
