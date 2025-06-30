@@ -30,6 +30,8 @@ This project implements Conway's Game of Life in Go, using a web server to serve
     Build and run the Go server:
 
     ```bash
+    go mod init
+    go mod tidy
     go build -o CGoL
     ./CGoL
     ```
