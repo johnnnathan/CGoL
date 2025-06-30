@@ -21,7 +21,7 @@ This project implements Conway's Game of Life in Go, using a web server to serve
 1. **Clone the Repository**
 
     ```bash
-    https://github.com/johnnnathan/CGoL.git
+    git clone https://github.com/johnnnathan/CGoL.git
     cd CGoL
     ```
 
